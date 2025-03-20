@@ -34,4 +34,4 @@ jobs:
           platforms: linux/amd64,linux/arm64,linux/arm/v7
           push: true
           tags: |
-            ghcr.io/RolandColored/addon-warema-bridge:latest
+            ghcr.io/rolandcolored/addon-warema-bridge:latest
