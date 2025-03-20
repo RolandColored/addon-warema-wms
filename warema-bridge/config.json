@@ -1,7 +1,7 @@
 {
-  "name": "Warema Bridge",
+  "name": "Warema Bridge RC",
   "version": "dev",
-  "slug": "warema-bridge",
+  "slug": "warema-bridge-rc",
   "description": "Control your Warema WMS system",
   "arch": ["aarch64", "amd64", "armv7", "i386"],
   "startup": "services",
