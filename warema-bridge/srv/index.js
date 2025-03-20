@@ -45,6 +45,7 @@ function registerDevice(element) {
     var payload
     switch (parseInt(element.type)) {
         case 6:
+        case 63:
             model = 'Weather station eco'
             payload = {
                 ...base_payload,
@@ -123,9 +124,9 @@ function registerDevice(element) {
                 tilt_status_topic: 'warema/' + element.snr + '/tilt',
                 set_position_topic: 'warema/' + element.snr + '/set_position',
                 tilt_command_topic: 'warema/' + element.snr + '/set_tilt',
-                tilt_closed_value: -100,
+                tilt_closed_value: 0,
                 tilt_opened_value: 100,
-                tilt_min: -100,
+                tilt_min: 0,
                 tilt_max: 100,
             }
             break;
