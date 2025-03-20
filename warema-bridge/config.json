@@ -8,7 +8,7 @@
   "url": "https://github.com/RolandColored/addon-warema-wms",
   "boot": "auto",
   "hassio_api": true,
-  "image": "RolandColored/addon-warema-bridge",
+  "image": "ghcr.io/rolandcolored/addon-warema-bridge",
   "options": {
     "wms_serial_port": null
   },
